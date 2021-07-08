@@ -1,0 +1,107 @@
+body {
+	background: #E5E5E5;
+	margin: 0;
+}
+#nav-bar {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 20vh;
+}
+#menu-button {
+	
+	position: absolute;
+	right: 80px;
+	top: 10px;
+	cursor: pointer;
+}
+#menu-button:hover {
+	background: #cc4c56;
+}
+#triangle {
+	position: absolute;
+	top: 10px;
+  width: 74px;
+  height: 74px;
+  background: linear-gradient(0deg, #fec25a, #fec25a);
+  background-blend-mode: normal, overlay, normal;
+	transform: rotate(-45deg);
+}
+#rhombus {
+	position: absolute;
+	top: 10px;
+  width: 74px;
+  height: 74px;
+  left: 52px;
+  background: linear-gradient(0deg, #e35461, #e35461);
+  background-blend-mode: normal, overlay, normal;
+	transform: rotate(-45deg);
+}
+#container {
+	display: flex;
+	position: relative;
+  flex-direction: column;
+  left: 15vw;
+  right: 15vw;
+  width: 75vw;
+  height: 100%; 
+}
+#my-name {
+	position: relative;
+	display: flex;
+	width: 220px;
+	height: 100px;
+	left: 16px;
+	top: 64px;
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 100%;
+	color: #1A2236;
+}
+#my-info {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 288px;
+	height: 126px;
+	left: 16px;
+	top: 54px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 21px;
+	letter-spacing: -0.01em;
+	color: #1A2236;
+}
+#collab-button {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 280px;
+	height: 60px;
+	left: 16px;
+	top: 150px;
+	background: #1A2236;
+	cursor: pointer;
+}
+#collab-button:hover{
+	background: rgb(65, 85, 44);
+}
+#collaboration {
+	position: absolute;
+	left: 38px;
+	top: 12px;
+	width: 203.68px;
+	height: 26.47px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	align-self: center;
+	color: #FFFFFF;
+}
