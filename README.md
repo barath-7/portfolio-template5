@@ -2,7 +2,7 @@
 
 # Portfolio: setup and mobile version
 
-![webpage](webpage.JPG)
+![webpage](img\new-web-page.JPG )
 
 ## Built with
 * HTML
