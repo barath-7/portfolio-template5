@@ -2,15 +2,12 @@
 
 # Portfolio: setup and mobile version
 
-![webpage](webpage.JPG)
+![webpage](new-web-page.JPG)
 
 ## Built with
 * HTML
 * CSS
 
-## Live Demo
-
-[Live Demo Link](https://codepen.io/barath77/pen/dyWXyKa)
 
 ## Authors
 
