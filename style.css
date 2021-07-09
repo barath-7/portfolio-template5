@@ -54,9 +54,9 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
-  left: 15vw;
-  right: 15vw;
-  width: 75vw;
+  left: 1vw;
+  right: 1vw;
+  width: 80vw;
   height: 100%;
   margin-bottom: 50px;
 }
@@ -128,29 +128,24 @@ body {
 
 .pattern-image {
   position: relative;
-  background-image: url(img\image_geometry_2.png);
   width: 80vw;
   height: 170px;
   top: 200px;
+  margin-bottom: 100px;
   overflow: hidden;
   z-index: 4;
 }
 
-.projects-grid-container {
-  width: 70%;
-  margin: 0 auto;
-  margin-top: 15%;
-}
-
 .projects {
   display: grid;
-  gap: 10px;
+  left: 10px;
+  width: 100%;
 }
 
 .blue-rectangle {
   width: 320px;
   height: 156px;
-  left: 0;
+  left: 10px;
   top: 940px;
   background: #1a2236;
   border: 0.333333px solid rgba(255, 255, 255, 0.1);
@@ -223,10 +218,6 @@ body {
   background: #3e802a;
 }
 
-.about-my-section {
-  display: grid;
-}
-
 .about-content {
   width: 288px;
   height: 126px;
@@ -271,7 +262,11 @@ body {
 
 .colour-squares {
   width: 70%;
-  margin: 20px auto;
+  margin-top: 10px;
+  gap: 7px;
+  display: flex;
+  left: 0;
+  flex-direction: column;
 }
 
 .coding-languages {
@@ -279,15 +274,8 @@ body {
   flex-direction: column;
   position: relative;
   width: 289px;
-  height: auto;
-  background: #1c528a;
-}
-
-.hashtag {
-  background-image: url(img\hashtag.png);
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  height: 289px;
+  background-image: url(./img/blue-square.png);
 }
 
 .language-heading {
@@ -316,7 +304,7 @@ body {
   height: 289px;
   left: 16px;
   top: 3485px;
-  background: #e2505c;
+  background-image: url(./img/red-square.png);
 }
 
 .skills {
@@ -324,11 +312,27 @@ body {
   height: 289px;
   left: 15px;
   top: 3790px;
-  background: #febf52;
+ background-image: url(./img/yellow-square.png);
 }
 
-.get-started {
-  left: 0;
+.footer {
+  display: flex;
+  background: #1A2236;
+  width: 99vw;
+  height: 70px;
+  left: 0px;
+  top: 4760px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bolder;
+  align-items: center;
 }
 
 @media only screen and(max-width: 768px) {
