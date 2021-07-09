@@ -312,15 +312,15 @@ body {
   height: 289px;
   left: 15px;
   top: 3790px;
- background-image: url(./img/yellow-square.png);
+  background-image: url(./img/yellow-square.png);
 }
 
 .footer {
   display: flex;
-  background: #1A2236;
+  background: #1a2236;
   width: 99vw;
   height: 70px;
-  left: 0px;
+  left: 0;
   top: 4760px;
 }
 
